@@ -41,7 +41,7 @@ Here are some examples of code snippets from the application:
 
 ```
 $sql  =  "INSERT INTO users (name, email, phone, address)".
-		" VALUES ('$name', '$email', '$phone', '$address')";
+	 " VALUES ('$name', '$email', '$phone', '$address')";
 $result  =  pg_query($conn,  $sql);
 ```
 
